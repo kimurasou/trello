@@ -1,0 +1,9 @@
+<div class="listeditPage">
+  <div class="container">
+    <%= form_with model: @user, url: { action: :update }, html: { class: 'listForm' }, local: true do |f| %>
+      <%= f.label :name %>
+      <%= f.text_field :name, class: "form-control listName", placeholder: "名前", value: current_user.name %>
+      <div class="text-center"><%= f.submit "変更する", class: "submitBtn" %></div>
+    <% end %>
+  </div>
+</div>

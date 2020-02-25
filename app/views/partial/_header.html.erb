@@ -1,0 +1,17 @@
+    <header class="header">
+      <nav class="nav">
+        <ul class="header_menu">
+          <li class="nav-link"><%=link_to current_user.name,  edit_user_path(current_user) %>さん</li>
+          <%# <li class="nav-link"><%=link_to current_user.name,  "/user/#{current_user.id}/edit" %>
+          <li class="header_menu_title"><%= link_to "Trello", root_path, class: "nav-link" %></li>
+          <li>
+            <ul class="header_menu_inner">
+              <%# リストを作成するリンクは今後開発していくので、今は"#"にしておきます。 %>
+              <li><%= link_to "New List", new_list_path, class: "list-new" %></li>
+                <i class="fas fa-edit"></i>
+              <li><%= link_to "Sign Out", destroy_user_session_path, method: :delete, class: "sign-out" %></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>

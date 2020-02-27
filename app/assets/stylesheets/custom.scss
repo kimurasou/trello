@@ -10,7 +10,7 @@ body {
 
 // header
 .header {
-  background-color: #009aff;
+  background-color: #f0e739;
   padding: 10px;
   .nav {
     .header_menu {
@@ -23,12 +23,13 @@ body {
       align-items: center;
       li {
         list-style: none;
-        color: #fff;
+        color: #000;
         .nav-link{
           font-family: 'Londrina Shadow', cursive;
+          color: #000;
         }
         a {
-          color: #fff;
+          color: #000;
           font-size: 20px;
         }
       }

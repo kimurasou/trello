@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   end
   
   resources :user, only: [:edit, :update] 
+
+  post '/homes/guest_sign_in', to: 'homes#new_guest'
 end

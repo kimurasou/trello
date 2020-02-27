@@ -68,4 +68,5 @@ gem 'devise'
 gem 'pry-byebug'
 gem 'pry-doc'
 gem 'pry-rails'
+gem 'rails-i18n'
 

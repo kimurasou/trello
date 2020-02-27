@@ -3,4 +3,8 @@ $(function() {
   $("ul").sortable({
     connectWith: "ul"
   }).disableSelection();
+
+  $(".listWrapper").sortable({
+    connectWith: ".listWrapper"
+  }).disableSelection();
 });

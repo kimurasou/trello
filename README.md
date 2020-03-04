@@ -1,24 +1,49 @@
-# README
+## アプリケーション名
+Signboardというアプリ名です。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+タスク管理アプリで、Trrelloのコピーサイトです
 
-Things you may want to cover:
+## アプリの概要
 
-* Ruby version
+リストとカードを作成して自分のタスクやチームのタスクを管理します。
 
-* System dependencies
+## 簡単なアプリの説明
 
-* Configuration
+ログインしているユーザーがリストとカードを作成してタスクを管理するアプリです。
 
-* Database creation
+作ったカードは他のリストに移動できます。
 
-* Database initialization
+カードに対してはコメントもできます。
 
-* How to run the test suite
+URL : https://calm-refuge-58738.herokuapp.com
 
-* Services (job queues, cache servers, search engines, etc.)
+テストユーザーの情報
 
-* Deployment instructions
+Eメール : test@test.com
 
-* ...
+パスワード : testtest11
+
+・ユーザー名 : テストユーザー
+
+## 実装した機能
+
+・ログイン / ログアウト機能
+
+・ユーザー新規登録機能
+
+・ユーザー編集機能
+
+・リスト作成機能
+
+・リスト編集機能
+
+・リスト削除機能
+
+・カード作成機能
+
+・カード編集機能
+
+・カード削除機能
+
+・コメント機能
+
